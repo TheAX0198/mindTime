@@ -14,6 +14,8 @@ let modifier = 25;
 ctr.lineWidth = "600";
 ctr.strokeStyle = "crimson";
 
+//anim();
+
 function anim(){
     ctr.beginPath();
     ctr.clearRect(0, 0, 600, 300);
@@ -44,7 +46,3 @@ function anim(){
 
     window.requestAnimationFrame(anim);
 }
-
-anim();
-
-//
