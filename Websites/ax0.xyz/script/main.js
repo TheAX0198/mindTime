@@ -3,16 +3,13 @@ let pwd = document.getElementById('pwd');
 let enter = document.getElementById('enter');
 let info = document.getElementById('info');
 
-const admin = {
-    username: 'Admin',
-    password: 'a1a2a3a4'
-};
-
 enter.onclick = () => {
     let inUsername = user.value;
     let inPassword = pwd.value;
 
-    if(admin.username === inUsername && admin.password === inPassword){
+    let op = JSON.parse(localStorage.getItem("op"));
+
+    if(op.username === inUsername && op.password === inPassword){
         info.style.color = 'lime';
         info.innerHTML = 'Connected successfuly';
         clearInputsVal();
