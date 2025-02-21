@@ -13,6 +13,7 @@ enter.onclick = () => {
         info.style.color = 'lime';
         info.innerHTML = 'Connected successfuly';
         clearInputsVal();
+        window.open("http://localhost/ax0.xyz/", "_blank")
     }
     else{
         info.style.color = 'crimson';
