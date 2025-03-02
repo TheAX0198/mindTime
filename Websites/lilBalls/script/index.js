@@ -27,7 +27,7 @@ canvas.addEventListener('mousemove', (evt) => {
     }
 });
 
-canvas.addEventListener('mousedown', (evt) => {
+canvas.addEventListener('click', (evt) => {
     cvs.clearRect(0, 0, 600, 400);
 
     console.clear();

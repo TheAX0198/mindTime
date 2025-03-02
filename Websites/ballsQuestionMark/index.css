@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+svg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
