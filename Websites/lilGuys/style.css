@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: snow;
+}
+
+svg{
+    border: 1px dashed snow;
+}
+
+svg image{
+    image-rendering: pixelated;
+}
